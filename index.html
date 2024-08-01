@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul McGinnity | Web Developer | Designer | Tech | Events</title>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31224049-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-31224049-1');
+    </script>
+    
+    <!-- Load google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Secular+One&display=swap" rel="stylesheet">
+    
+    <style>
+        @media screen and (min-width:100px ) {
+            
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-size: 16px;
+                font-size: 1em;
+                font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+            }
+            header { 
+                position: relative;
+                width: 100vw;
+                height: 60vh;
+                display: block;
+                background-color: rgb(0, 128, 128);
+                background: url('/spatter.jpg');
+                background-size: cover;
+                
+            }
+            nav {
+                display: none;
+            }      
+            
+            article {
+                padding: 10%;
+                display: inline-grid;
+                grid-template-columns: minmax(300px 600px);
+                grid-column-gap: 70px;
+            }
+            
+            .column-1 {
+                display: none;
+                visibility: hidden;
+            }
+            
+            footer {
+                padding: 10%;
+            }
+            
+            img {
+                max-width: 100%;
+            }
+            
+            footer p {
+                font-size: 0.8rem;
+                
+            }
+            
+            footer p::before {
+                content: "//";
+                font-family: "Secular One";
+                font-size: 1.2rem;
+                font-weight: 400;
+                color: rgb(129, 254, 221);
+                margin: 0 3% 0 0;
+                letter-spacing: -3px;
+            }
+            
+            h1 {
+                color: rgb(214 51 152);
+                position: absolute;
+                bottom:0;
+                margin: 5% 10% 10% 10%;
+                font-size: 15vw;
+                line-height: 0.85em;
+                letter-spacing: -2px;
+                font-family: 'Secular One', sans-serif;
+                font-weight: 600;
+            }
+            
+            p {
+                font-family: 'DM Sans', sans-serif;
+                font-size: 1rem;
+                line-height: 1.5em;
+                font-weight: 400;
+                margin: 0 0 2em 0;
+                color: rgb(21, 36, 55);
+            }
+            
+            .contact-me {
+                color: rgb(84, 145, 217);
+                font-weight: 700;
+            }
+            
+            article a {
+                font-weight: 700;
+                color: rgb(84, 145, 217);
+                background-color: rgba(129, 254, 221,0);
+                text-decoration: none;
+            }
+            
+            article a:hover {
+                text-decoration: underline;
+                background-color: rgba(129, 254, 221,1);
+                color: rgb(84, 145, 217);
+                transition: background-color ease-in-out 0.6s;
+            }
+            
+            ul.skillz {
+                list-style: none;
+                margin: 0 0 2em 0;
+            }
+            
+            .skillz li {
+                width: initial;
+                display: inline;
+                white-space: nowrap;
+                padding: 0 0 2% 0;
+            }
+            
+            .skillz li:before {
+                content:"//";
+                color: rgba(129, 254, 221,1);
+                font-weight: 800;
+                padding: 0 0.8% 0 0;
+            }
+        }
+        
+        @media screen and (min-width: 600px) { 
+            header {
+                height: 90vh;
+            }
+
+            article {
+                padding: 3% 10%;
+            }
+            h1 {
+                font-size: 17vw;
+                text-shadow: 0px 0px 11px rgb(129, 254, 221);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paul McGinnity</h1>
+    </header>
+    <nav>
+        Navigation this space
+    </nav>
+    <section>
+        
+    </section>
+    <article>
+        <div class="column-1">
+            <img src="https://via.placeholder.com/500/500" alt="placeholder image">
+        </div>
+        <div class="column-2">
+            <h2>About</h2>
+            <p>I’ve worked at <a href="http://connectmedia.cc" target="_blank">Connect</a> for 18 years. As a senior member of the team and developer I am responsible for all client and Connect owned online properties. As a designer I also work on print advertisements, magazines,  tabloid style newspapers and campaign materials.</p>
+            <p>As part of my role I’m a key member of the organising team, managing ticketing, website, social media, e-newsletter and graphic production as well as logistics for the annual Scottish Dental Show.</p>
+            <p>IT support, management and decision making is a big part of my day-to-day work. From “have you turned it off and on again” calls, to large budget kit and infrastructure projects. </p>
+            <p>I love problem solving issues, making designs work for the user and looking for ways to make processes smoother and more efficient.</p>
+            <h2>Skills</h2>
+            <ul class="skillz">
+                <li>Websites</li>
+                <li>e-newsletters</li>
+                <li>Magazines</li>
+                <li>Tabloids</li>
+                <li>Marketing Collteral</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>Adobe Creative Cloud</li>
+                <li>Acrobat</li>
+                <li>Illustrator</li>
+                <li>InDesign</li>
+                <li>Photoshop</li>
+                <li>Premier</li>
+                <li>After Effects</li>
+                <li>Mac</li>
+                <li>PC</li>
+                <li>Microsoft 365</li>
+                
+            </ul>
+            <h2>Contact me</h2>
+            <p class="contact-me">
+                Feel free to get in touch I'm available <a href="mailto:paul@paulmcginnity.com?subject=Website%20contact" title="Say hi on email paul@paulmcginnity.com">on email</a>, <a href="https://glasgow.social/@pablo_gla" rel="me">Pablo_Gla</a> on Mastodon and <a href="https://twitter.com/papasmurf82" title="Follow me on Twitter">@papasmurf82</a> (I really should change that!) on Twitter.
+            </p>
+        </div>
+    </article>
+    <aside></aside>
+    <footer>
+        <p>© Copyright Paul McGinnity</p>
+        
+    </footer>
+    
+</body>
+</html>
